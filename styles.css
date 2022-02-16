@@ -1,0 +1,206 @@
+
+           /* the main bar*/
+.bar { 
+  border: 2px solid rgb(80, 80, 80);
+  min-width: 450px; 
+  min-height: 15px;
+  position:absolute;
+  left: 31%;
+  top:40%; 
+  outline: none;  
+  text-align: left;
+}
+
+                     /* the bars on advance search */    
+.minibar{
+  border: 0.5px solid rgb(44, 74, 173);
+  padding: 0 20px 0 20px;
+  border-radius: 0;
+  text-align: left;
+  min-width: 400px;
+  min-height: 30px;
+  text-decoration: none;
+  float: right;
+}
+     
+.minibar:hover{
+  border: 1px solid rgb(108, 124, 214);
+}
+
+                /* the div that contains advance bars */
+#container-advance{
+  width: 690px;
+  height: 350px;
+}
+
+
+                /* all input tags in 3 pages */ 
+input {
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 25px;
+  display: block;
+  margin: 0 auto;
+}
+
+                 /* the 'im feeling lucky" and "submit" button + hover */
+.button1, .button2 , .button3{
+  position:absolute;
+  top: 52%;
+  background-color: #f8f9fa;
+  border: 1px solid rgb(182, 177, 177);
+  font-weight: bold;
+  padding: 15px 15px 15px 15px;
+}
+
+
+.button1:hover, .button2:hover, .button3:hover{
+  border: 1px solid rgb(118, 118, 118);
+  
+}
+
+.button1 {
+  left: 37%;
+  border-radius: 4px;
+}
+
+.button2 {
+  left: 49%;
+  border-radius: 4px;
+}
+
+.button3 {
+  left: 43%;
+}
+
+.buttonAdvance {
+float: right;
+  background-color: #4286F4;
+  height: 30px;
+  min-width: 120px;
+  border-radius: 2px;
+  color: white;
+  margin-top: 10px;
+}
+
+      /*advance button */ 
+.btn {
+  text-decoration: none;
+  background-color: blue;
+  border-radius: 0px;
+  margin-right: 110px;
+  color: white;
+}
+
+           /* the "advance search" and the "google image" links */
+.links , .link {
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgb(80, 80, 80);
+  position: fixed;
+  top: 0;
+  font-weight: bold;
+  border: 1px solid rgb(80, 80, 80);
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.link {
+  right: 152px;
+}
+
+.links {
+  right: 15px;
+}
+
+.links:hover, .link:hover {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+  background-color: rgb(80, 80, 80);
+}
+
+   /* google logo */
+img {
+  height: 110px;
+  width: auto;
+  margin-left: 37%;
+  margin-top: 8%;
+}
+
+       /* google logo on the advance search*/ 
+.small-img{
+  height: 23px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+  /* two first divs in advance search */ 
+
+.first{
+    width: 100%;
+    height: 70px;
+  }
+    
+
+.second{
+  width: 100%;
+  height: 35px;
+}
+                  
+                       /*the advance search title*/
+#secondtitle { 
+  color: #d93025;
+  margin-left: 35px;
+  margin-top: 10px;
+  font-weight:normal; 
+}
+                   
+                 /* the line in advance search */
+#line {
+  width:100%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 0;
+  border-width: 1px;  
+  border-color: rgba(221, 221, 228, 0.781);  
+}
+​
+
+h2 {
+  font-family: sans-serif;
+}
+
+label{
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+
+.first-span{
+  padding-left: 25px;
+  font-weight: bold;
+}
+
+.second-span{
+  float: right;
+  margin-right: 350px;
+  font-weight: bold;
+  color: rgb(89, 91, 104);
+}
+
+#container-second{
+  width: 450px;
+  height: 350px;
+}
+
+.biggest-div{
+  display: flex;
+  height: 350px;
+}
+
+p{
+  margin-left: 10px;
+  font-size: 16px;
+  color: rgb(89, 91, 104);
+}
